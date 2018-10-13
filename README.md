@@ -50,14 +50,14 @@ Android
             ├── MyWebViewClient         # web view event handlers
             └── NetworkUtils            # network handlers
     ├── res
-        ├── drawable                    #
+        ├── drawable                    # splash and icon configuration
         ├── layout
-        ├── mipmap
+        ├── mipmap                      # icons
         └── values
-            ├── colors.xml
-            ├── config.xml
+            ├── colors.xml              # app color configuration
+            ├── config.xml              # main app configuration
             ├── strings.xml
-            └── styles.xml              # network handlers
+            └── styles.xml              
 
 └── Gradle Scripts                      # project build scripts
     ├── build.gradle (Project:android)
