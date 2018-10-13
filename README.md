@@ -114,12 +114,17 @@ Change this depending on what devices you are targeting.
 
 
 ### config.xml
-Here is where you add the website that the app will load.
+This configuration file will allow you to edit the website url, alert text and splash images. It will also allow you to add urls that you to prevent from opening new pages.  This should help prevent default behaviour when using Google or Facebook signon features.
+
+| Property | Description |
+| --- | --- |
+| web_view_url | main website to load at startup |
+| show_launch_image | splash image is shown first, and waits until the website has loaded entirely |
+| launch_image | splash image id [*See Splash Image section*](#user-content-splash-image) |
+| disallow_url_list | filter and detect certain links and prevent default behaviour |
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
     <!-- application name -->
     <string name="app_name">MyApp</string>
 
@@ -144,16 +149,42 @@ Here is where you add the website that the app will load.
     <!-- show launch image at startup -->
     <bool name="show_launch_image">true</bool>
     <drawable name="launch_image">@drawable/launch_image_1080</drawable>
-
 </resources>
 ```
 
-| Property | Description |
-| --- | --- |
-| disallow_url_list | filter and detect certain links and prevent default behaviour |
-| web_view_url | main website to load at startup |
-| show_launch_image | splash image is shown first, and waits until the website has loaded entirely |
-| launch_image | splash image id, [*See Splash Image section*](#user-content-splash-image) |
+### colors.xml
+This configuration file will allow you to edit the colors used for status bar, alerts and progress indicators.
+
+```xml
+<resources>
+    <!-- global theme colors, primarily used for top header -->
+    <color name="colorPrimary">#6195ff</color>
+    <color name="colorTextPrimary">@android:color/black</color>
+    <color name="colorBackground">@android:color/white</color>
+    <color name="statusBarColor">@color/colorPrimary</color>
+    <color name="statusBarTextColor">@color/colorTextPrimary</color>
+
+    <!-- theme progress indicator colors -->
+    <color name="progressBackground">@color/colorPrimary</color>
+    <color name="progressStart">@android:color/white</color>
+    <color name="progressEnd">@android:color/transparent</color>
+</resources>
+```
 
 ### Splash Image
-Get familiar with firebase go to https://firebase.google.com/
+The Splash image is loaded and shown at startup. It waits until the website has loaded entirely. And then fades out. There are a variety of methods to show splash images. But for the purpose of this project we will just use (1) image for all devices. 
+
+You can disable the splash image by setting the `show_splash_image` to **false** in the `config.xml` file.
+
+> NOTE: While you can disable splash images, I encourage you to use it for store reviews.  In my opinion, having splash images and progress indicators make your app feel more native.
+
+The splash image is located below.  Just replace this image with your own. The splash image resolution we need is 1920x1080, this size usually scales ok for most devices. 
+```
+Android
+└── app                                 
+    └── res
+        └── drawable                    
+            └── launch_image_1080.png (xxhdpi)
+```
+
+
