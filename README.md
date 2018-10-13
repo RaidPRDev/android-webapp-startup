@@ -102,7 +102,11 @@ Towards the bottom of the manifest, you should see a list of permissions
 ```
 
 Change this depending on what devices you are targeting. 
-```xml<xml><uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" /></xml>```
+```xml
+<xml>
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" />
+</xml>
+```
 
 > You can also remove the camera permissions if you know you will not use it.
 
