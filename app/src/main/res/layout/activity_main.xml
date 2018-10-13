@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/launch_image" />
+
+    </WebView>
+
+    <!-- Progress Indicator -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progresslayout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/activityIndicatorBackground"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/progress_rectangle"/>
+
+        <ProgressBar
+            android:id="@+id/activityIndicatorCircle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:indeterminateOnly="true"
+            android:indeterminateDrawable="@drawable/progress_indicator"
+            android:layout_centerInParent="true"
+            android:keepScreenOn="true"/>
+
+    </RelativeLayout>
+    <!-- End of Progress Indicator -->
+
+</RelativeLayout>
+

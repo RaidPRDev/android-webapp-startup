@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- global theme colors, primarily used for top header -->
+    <color name="colorPrimary">#6195ff</color>
+    <color name="colorTextPrimary">@android:color/black</color>
+    <color name="colorBackground">@android:color/white</color>
+    <color name="statusBarColor">@color/colorPrimary</color>
+    <color name="statusBarTextColor">@color/colorTextPrimary</color>
+
+    <!-- theme progress indicator colors -->
+    <color name="progressBackground">@color/colorPrimary</color>
+    <color name="progressStart">@android:color/white</color>
+    <color name="progressEnd">@android:color/transparent</color>
+
+</resources>
