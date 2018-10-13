@@ -153,6 +153,7 @@ This configuration file will allow you to edit the website url, alert text and s
 ```
 
 ### colors.xml
+---
 This configuration file will allow you to edit the colors used for status bar, alerts and progress indicators.
 
 ```xml
