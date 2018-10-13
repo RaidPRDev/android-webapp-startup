@@ -9,7 +9,7 @@ Before you can start, you need to have Android Studio 3.0.0 or greater installed
 To download visit https://developer.android.com/studio/
 
 #### Google Developer License
-This might seem obvious but you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest file.<br>
+This might seem obvious but you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest and build script file.<br>
 For more information visit https://developers.google.com/ 
 
 ___
