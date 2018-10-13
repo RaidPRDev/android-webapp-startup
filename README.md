@@ -195,6 +195,9 @@ Ideally we just need to update the `applicationId`, `versionName` and `versionCo
 | versionName | mayor version |
 
 ```gradle
+// for simplicity purposes, I intentionally removed the rest of the code
+// we just need to focus on the defaultConfig object
+
 android {
     compileSdkVersion 26
     defaultConfig {
