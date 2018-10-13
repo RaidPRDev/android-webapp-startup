@@ -51,6 +51,39 @@ Android
     └── other files ...
 ```
 
+Now we only need to worry about a few files:
+```
+    > app/manifest/AndroidManifest.xml
+    > app/res/values/config.xml
+    > app/res/values/colors.xml
+    > Gradle Scripts/build.gradle (Module:app)
+```
+
+#### AndroidManifest.xml
+This is the starting point and the main configuration file for your app.
+
+Here we need to modify a few properties to make the app your own.
+
+android:versionName="1.0.0" android:versionCode="1"
+package="com.application.mobile"
+
+Towards the bottom of the manifest, you should see a list of permissions
+```xml
+<manifest>    
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA2" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.hardware.camera"></uses-permission>
+    <uses-feature android:name="android.hardware.camera" />
+</manifest>
+```
+
+
 
 
 #### webpack.js
