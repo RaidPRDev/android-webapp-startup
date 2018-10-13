@@ -8,6 +8,8 @@ Android Studio start up project, that allows you to create an android webview ap
 Before you can start, you need to have Android Studio 3.0.0 or greater installed on your machine.<br>
 To download visit https://developer.android.com/studio/
 
+> I should not that you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest file.
+
 ## Project Setup
 
 Launch Android Studio, and select 'Open an existing Android Project project'
