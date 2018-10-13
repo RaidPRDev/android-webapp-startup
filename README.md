@@ -239,11 +239,22 @@ Android
 ### Aplication Icons
 By this point, you should have a build.  The last thing is to add icons for your application.
 
+The actual png icons are located here:
+```
+Android
+└── app                                 
+    └── res
+        └── mipmap                    
+            ├── ic_launcher (6)
+            ├── ic_launcher_foreground (5)
+            └── ic_launcher_round (6)
+```
+
 To update, you can do this in a few ways.  
 
 Use Image Asset Studio
-1- Select the app folder in Project Window
-2 - right-click, select New->Image Asset.  
+1 Select the app folder in Project Window
+2 right-click, select New->Image Asset.  
 
 Or use an online generator
 
