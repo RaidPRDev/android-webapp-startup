@@ -139,7 +139,7 @@ Here is where you add the website that the app will load.
     <string name="exit_alert_title">Hey sad to see you go!</string>
     <string name="exit_alert_body">Are you sure you want to exit?</string>
     <string name="no_internet_alert_title">Failed Connection</string>
-    <string name="no_internet_alert_body">Sorry, we were unable to establish an internet connection. Please try again.</string>
+    <string name="no_internet_alert_body">No internet connection. Please try again.</string>
 
     <!-- show launch image at startup -->
     <bool name="show_launch_image">true</bool>
@@ -153,7 +153,8 @@ Here is where you add the website that the app will load.
 | disallow_url_list | filter and detect certain links and prevent default behaviour |
 | web_view_url | main website to load at startup |
 | show_launch_image | splash image is shown first, and waits until the website has loaded entirely |
-| launch_image | the image res id, to update for your own, you will need to replace this image. [*See Splash Image section*](#user-content-splash-image) |
+| launch_image | the image res id, to update for your own, you will need to replace this image.<br>
+[*See Splash Image section*](#user-content-splash-image) |
 
 ### Splash Image
 Get familiar with firebase go to https://firebase.google.com/
