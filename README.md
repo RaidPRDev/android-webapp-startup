@@ -72,9 +72,9 @@ Here we need to modify a few properties to make the app your own.
 
 Edit the following:
 
-android:versionName                         * application version *
-- android:versionCode="1"                   * application build sub-version *
-- package="com.application.mobile"          * application id *
+android:versionName                     *application version*
+android:versionCode="1"                 *application build sub-version*
+package="com.application.mobile"        *application id*
 
 See here:
 ```xml
