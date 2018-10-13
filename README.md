@@ -120,7 +120,7 @@ This configuration file will allow you to edit the website url, alert text and s
 | Property | Description |
 | --- | --- |
 | web_view_url | main website to load at startup |
-| show_launch_image | splash image is shown first, and waits until the website has loaded entirely |
+| show_launch_image | enable or disable splash at startup |
 | launch_image | splash image id [*See Splash Image section*](#user-content-splash-image) |
 | disallow_url_list | filter and detect certain links and prevent default behaviour |
 
@@ -158,6 +158,12 @@ ___
 
 This configuration file will allow you to edit the colors used for status bar, alerts and progress indicators.
 
+I have it setup to just change the colorPrimary property and the rest of the color properties will update.
+
+However, you can change each color individually.
+
+> Try not to change the `colorTextPrimary` and `colorBackground` 
+
 ```xml
 <resources>
     <!-- global theme colors, primarily used for top header -->
@@ -172,6 +178,35 @@ This configuration file will allow you to edit the colors used for status bar, a
     <color name="progressStart">@android:color/white</color>
     <color name="progressEnd">@android:color/transparent</color>
 </resources>
+```
+
+### Gradle Scripts/build.gradle (Module:app)
+Ideally we just need to update the `applicationId`, `versionName` and `versionCode`.
+
+> We may need to edit the sdk version properties.  For now leave them as is.
+
+| Property | Description |
+| --- | --- |
+| compileSdkVersion | the android sdk to use to make build, leave as is |
+| applicationId | add the application id created in the Google Console and the manifest |
+| minSdkVersion | what minimum version do we want to support, leave as is |
+| targetSdkVersion | maximum version do we want to support, leave as is |
+| versionCode | build version |
+| versionName | mayor version |
+
+```
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        **applicationId 'com.yourapplication.app'**
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName '1.00'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+   
+}
 ```
 
 ### Splash Image
