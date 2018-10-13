@@ -15,7 +15,7 @@ Real use case apps currently using this build:<br>
 [Bookme NZ Android](https://linkmaker.itunes.apple.com/en-us/details/1435862603)<br>
 [Bookme NZ iOS](https://linkmaker.itunes.apple.com/en-us/details/1435862603)<br>
 
-There is an iOS Xcode startup project as well, see here:<br>
+There is also an XCode startup project as well, see here:<br>
 [ios-xcode-webapp-startup](https://github.com/lavoe2k/ios-xcode-webapp-startup)<br>
 
 
