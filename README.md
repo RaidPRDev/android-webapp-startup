@@ -72,11 +72,11 @@ Here we need to modify a few properties to make the app your own.
 
 Edit the following:
 
-| Command | Description |
+| Property | Description |
 | --- | --- |
-| android:versionName | *application version* |
-| android:versionCode="1" | *application build sub-version* |
-| package="com.application.mobile" | *application id* |
+| package="com.application.mobile" | application id |
+| android:versionName | application version |
+| android:versionCode="1" | application build sub-version |
 
 See here:
 ```xml
