@@ -239,8 +239,21 @@ Android
 ### Aplication Icons
 By this point, you should have a build.  The last thing is to add icons for your application.
 
-[AndroidAssetStudio](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) 
+To update, you can do this in a few ways.  
 
+Use Image Asset Studio
+1- Select the app folder in Project Window
+2 - right-click, select New->Image Asset.  
+
+Or use an online generator
+
+There is a nifty online generator that works fairly well:
+[Android Asset Studio Icon Generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) 
+
+What ever generator you use, it will always output to a zip file.  Extract the contents and replace them to the res folder.
+
+
+That's it.
 
 
 
