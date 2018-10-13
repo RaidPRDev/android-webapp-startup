@@ -70,6 +70,13 @@ This is the starting point and the main configuration file for your app.
 
 Here we need to modify a few properties to make the app your own.
 
+Edit the following:
+
+- android:versionName                       # application version
+- android:versionCode="1"                   # application build sub-version
+- package="com.application.mobile"          # application id
+
+See here:
 ```xml
 <manifest 
     android:versionName="1.0.0" android:versionCode="1"
@@ -80,7 +87,7 @@ Here we need to modify a few properties to make the app your own.
 Towards the bottom of the manifest, you should see a list of permissions
 
 ```xml
-<manifest>    
+<xml>    
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -91,10 +98,13 @@ Towards the bottom of the manifest, you should see a list of permissions
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.hardware.camera"></uses-permission>
     <uses-feature android:name="android.hardware.camera" />
-</manifest>
+</xml>
 ```
 
+Change this depending on what devices you are targeting. 
+`<xml><uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" /></xml>`
 
+> You can also remove the camera permissions if you know you will not use it.
 
 
 #### webpack.js
