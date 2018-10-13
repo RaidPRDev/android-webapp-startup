@@ -9,14 +9,14 @@ It comes packaged with:
 - camera upload support
 - simple cache management
 
-Real use case apps currently using this build
-[Aerial Video Awards Android] https://play.google.com/store/apps/details?id=com.ava.awards
-[Aerial Video Awards iOS] https://linkmaker.itunes.apple.com/en-us/details/1360880208
-[Bookme NZ Android](https://linkmaker.itunes.apple.com/en-us/details/1435862603)
-[Bookme NZ iOS](https://linkmaker.itunes.apple.com/en-us/details/1435862603)
+Real use case apps currently using this build:<br>
+[Aerial Video Awards Android] https://play.google.com/store/apps/details?id=com.ava.awards<br>
+[Aerial Video Awards iOS] https://linkmaker.itunes.apple.com/en-us/details/1360880208<br>
+[Bookme NZ Android](https://linkmaker.itunes.apple.com/en-us/details/1435862603)<br>
+[Bookme NZ iOS](https://linkmaker.itunes.apple.com/en-us/details/1435862603)<br>
 
 There is an iOS Xcode startup project as well, see here:<br>
-[ios-xcode-webapp-startup](https://github.com/lavoe2k/ios-xcode-webapp-startup)
+[ios-xcode-webapp-startup](https://github.com/lavoe2k/ios-xcode-webapp-startup)<br>
 
 
 ## Prerequisites
