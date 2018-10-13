@@ -200,9 +200,12 @@ android {
    
 }
 ```
+
 Ideally you just need to update the `applicationId`, `versionName` and `versionCode`.
 
+
 > NOTE: You may need to edit the sdk version properties.  For now leave them as is.
+
 
 | Property | Description |
 | --- | --- |
@@ -213,7 +216,9 @@ Ideally you just need to update the `applicationId`, `versionName` and `versionC
 | versionCode | build version |
 | versionName | mayor version |
 
+
 > IMPORTANT: Make sure you match the application id and versionName that is created in the Google Console.
+
 
 ### Splash Image
 The Splash image is loaded and shown at startup. It waits until the website has loaded entirely. And then fades out. There are a variety of methods to show splash images. But for the purpose of this project we will just use (1) image for all devices. 
