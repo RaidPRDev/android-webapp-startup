@@ -1,4 +1,4 @@
-![android_logo](https://github.com/lavoe2k/android-webapp-startup/blob/master/images/android_icon.png)
+![android_logo](https://raidpr.secure.omnis.com/images/git/android_128x128.png)
 # android-webapp-startup
 Android Studio start up project, that allows you to create an android webview application.
 
