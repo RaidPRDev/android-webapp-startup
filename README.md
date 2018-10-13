@@ -5,7 +5,7 @@ Android Studio start up project, that allows you to create an android webview ap
 It comes packaged with: 
 - web url filter detection
 - custom configuration file for web url, colors, etc...
-- configuralble splash image
+- configurable splash image
 - progress indicator when loading in new pages
 - camera upload support
 - simple cache management
