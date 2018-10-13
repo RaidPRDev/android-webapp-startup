@@ -113,8 +113,41 @@ Change this depending on what devices you are targeting.
 > You can also remove the camera permissions if you know you will not use it.
 
 
-#### webpack.js
-Get familiar with webpack go to https://webpack.js.org
+#### config.xml
+Here is where you add the website that the app will load.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- application name -->
+    <string name="app_name">MyApp</string>
+
+    <!-- main website url -->
+    <string name="web_view_url">http://www.raidpr.com/clients/demo/mawv/</string>
+
+    <!-- social url phrase for sign on -->
+    <string-array name="disallow_url_list">
+        <item>https://www.apple.com</item>
+        <item>instagram</item>
+        <item>twitter</item>
+        <item>youtube</item>
+        <item>vimeo</item>
+    </string-array>
+
+    <!-- native alerts -->
+    <string name="exit_alert_title">Hey sad to see you go!</string>
+    <string name="exit_alert_body">Are you sure you want to exit?</string>
+    <string name="no_internet_alert_title">Failed Connection</string>
+    <string name="no_internet_alert_body">Sorry, we were unable to establish an internet connection. Please try again.</string>
+
+    <!-- show launch image at startup -->
+    <bool name="show_launch_image">true</bool>
+    <drawable name="launch_image">@drawable/launch_image_1080</drawable>
+
+</resources>
+```
+
 
 #### firebase sdk
 Get familiar with firebase go to https://firebase.google.com/
