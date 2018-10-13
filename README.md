@@ -1,6 +1,14 @@
 # android-webapp-startup
 Android Studio start up project, that allows you to create an android webview application.
 
+It comes packaged with: 
+- web url filter detection
+- custom configuration file for web url, colors, etc...
+- configuralble splash image
+- progress indicator when loading in new pages
+- camera upload support
+- simple cache management
+
 ## Prerequisites
 
 #### Android Studio
