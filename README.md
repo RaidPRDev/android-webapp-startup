@@ -10,8 +10,8 @@ It comes packaged with:
 - simple cache management
 
 Real use case apps currently using this build:<br>
-[Aerial Video Awards Android] https://play.google.com/store/apps/details?id=com.ava.awards<br>
-[Aerial Video Awards iOS] https://linkmaker.itunes.apple.com/en-us/details/1360880208<br>
+[Aerial Video Awards Android](https://play.google.com/store/apps/details?id=com.ava.awards)<br>
+[Aerial Video Awards iOS](https://linkmaker.itunes.apple.com/en-us/details/1360880208)<br>
 [Bookme NZ Android](https://linkmaker.itunes.apple.com/en-us/details/1435862603)<br>
 [Bookme NZ iOS](https://linkmaker.itunes.apple.com/en-us/details/1435862603)<br>
 
