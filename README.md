@@ -10,7 +10,7 @@ To download visit https://developer.android.com/studio/
 
 #### Google Developer License
 This might seem obvious but you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest file.<br>
-For more information visit https://developer.android.com/studio/ 
+For more information visit https://developers.google.com/ 
 
 ***
 
@@ -72,9 +72,9 @@ Here we need to modify a few properties to make the app your own.
 
 Edit the following:
 
-- android:versionName                       # application version
-- android:versionCode="1"                   # application build sub-version
-- package="com.application.mobile"          # application id
+android:versionName                         ###### application version
+- android:versionCode="1"                   ###### application build sub-version
+- package="com.application.mobile"          ###### application id
 
 See here:
 ```xml
