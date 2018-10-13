@@ -12,7 +12,7 @@ To download visit https://developer.android.com/studio/
 This might seem obvious but you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest file.<br>
 For more information visit https://developers.google.com/ 
 
-***
+___
 
 ## Project Setup
 
@@ -64,6 +64,7 @@ Now we only need to worry about a few files:
     > app/res/values/colors.xml
     > Gradle Scripts/build.gradle (Module:app)
 ```
+___
 
 ### AndroidManifest.xml
 This is the starting point and the main configuration file for your app.
@@ -111,7 +112,7 @@ Change this depending on what devices you are targeting.
 ```
 
 > You can also remove the camera permissions if you know you will not use it.
-
+___
 
 ### config.xml
 This configuration file will allow you to edit the website url, alert text and splash images. It will also allow you to add urls that you to prevent from opening new pages.  This should help prevent default behaviour when using Google or Facebook signon features.
@@ -151,9 +152,10 @@ This configuration file will allow you to edit the website url, alert text and s
     <drawable name="launch_image">@drawable/launch_image_1080</drawable>
 </resources>
 ```
+___
 
 ### colors.xml
-___
+
 This configuration file will allow you to edit the colors used for status bar, alerts and progress indicators.
 
 ```xml
