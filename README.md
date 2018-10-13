@@ -9,8 +9,8 @@ Before you can start, you need to have Android Studio 3.0.0 or greater installed
 To download visit https://developer.android.com/studio/
 
 #### Google Developer License
-This might seem obvious but you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest file.
-For more information visit https://developer.android.com/studio/ *separate paragraph*
+This might seem obvious but you will need a Google Developer License in order to make a final build and publish. With the license you can create your app and application id which you will need when you configure the app's project manifest file.<br>
+For more information visit https://developer.android.com/studio/ 
 
 ***
 
@@ -70,10 +70,13 @@ This is the starting point and the main configuration file for your app.
 
 Here we need to modify a few properties to make the app your own.
 
-android:versionName="1.0.0" android:versionCode="1"
+```xml
+android:versionName="1.0.0"
+android:versionCode="1"
 package="com.application.mobile"
-
+```
 Towards the bottom of the manifest, you should see a list of permissions
+
 ```xml
 <manifest>    
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" />
