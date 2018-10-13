@@ -252,9 +252,9 @@ Android
 
 To update, you can do this in a few ways.  
 
-Use Image Asset Studio
-1 Select the app folder in Project Window
-2 right-click, select New->Image Asset.  
+Use Image Asset Studio [Help Guide](https://developer.android.com/studio/write/image-asset-studio)<br>
+1. Select the app folder in Project Window
+2. right-click, select `New->Image Asset`.  
 
 Or use an online generator
 
