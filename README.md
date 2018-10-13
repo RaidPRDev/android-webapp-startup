@@ -179,6 +179,7 @@ However, you can change each color individually.
     <color name="progressEnd">@android:color/transparent</color>
 </resources>
 ```
+___
 
 ### Gradle Scripts/build.gradle (Module:app)
 Open and you should see something similar to this:
@@ -203,9 +204,7 @@ android {
 
 Ideally you just need to update the `applicationId`, `versionName` and `versionCode`.
 
-
 > NOTE: You may need to edit the sdk version properties.  For now leave them as is.
-
 
 | Property | Description |
 | --- | --- |
@@ -216,8 +215,9 @@ Ideally you just need to update the `applicationId`, `versionName` and `versionC
 | versionCode | build version |
 | versionName | mayor version |
 
-
 > IMPORTANT: Make sure you match the application id and versionName that is created in the Google Console.
+
+___
 
 
 ### Splash Image
