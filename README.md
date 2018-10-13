@@ -65,7 +65,7 @@ Now we only need to worry about a few files:
     > Gradle Scripts/build.gradle (Module:app)
 ```
 
-#### AndroidManifest.xml
+### AndroidManifest.xml
 This is the starting point and the main configuration file for your app.
 
 Here we need to modify a few properties to make the app your own.
@@ -113,7 +113,7 @@ Change this depending on what devices you are targeting.
 > You can also remove the camera permissions if you know you will not use it.
 
 
-#### config.xml
+### config.xml
 Here is where you add the website that the app will load.
 
 ```xml
@@ -148,6 +148,12 @@ Here is where you add the website that the app will load.
 </resources>
 ```
 
+| Property | Description |
+| --- | --- |
+| disallow_url_list | filter and detect certain links and prevent default behaviour |
+| web_view_url | main website to load at startup |
+| show_launch_image | splash image is shown first, and waits until the website has loaded entirely |
+| launch_image | the image res id, to update for your own, you will need to replace this image. [create an anchor](#anchors-in-markdown) *See Splash Image section* |
 
-#### firebase sdk
+### Splash Image
 Get familiar with firebase go to https://firebase.google.com/
