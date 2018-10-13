@@ -181,18 +181,7 @@ However, you can change each color individually.
 ```
 
 ### Gradle Scripts/build.gradle (Module:app)
-Ideally we just need to update the `applicationId`, `versionName` and `versionCode`.
-
-> We may need to edit the sdk version properties.  For now leave them as is.
-
-| Property | Description |
-| --- | --- |
-| compileSdkVersion | the android sdk to use to make build, leave as is |
-| applicationId | add the application id created in the Google Console and the manifest |
-| minSdkVersion | what minimum version do we want to support, leave as is |
-| targetSdkVersion | maximum version do we want to support, leave as is |
-| versionCode | build version |
-| versionName | mayor version |
+Open and you should see something similar to this:
 
 ```gradle
 // for simplicity purposes, I intentionally removed the rest of the code
@@ -211,6 +200,20 @@ android {
    
 }
 ```
+Ideally you just need to update the `applicationId`, `versionName` and `versionCode`.
+
+> NOTE: You may need to edit the sdk version properties.  For now leave them as is.
+
+| Property | Description |
+| --- | --- |
+| compileSdkVersion | the android sdk to use to make build, leave as is |
+| applicationId | add the application id created in the Google Console and the manifest |
+| minSdkVersion | what minimum version do we want to support, leave as is |
+| targetSdkVersion | maximum version do we want to support, leave as is |
+| versionCode | build version |
+| versionName | mayor version |
+
+> IMPORTANT: Make sure you match the application id and versionName that is created in the Google Console.
 
 ### Splash Image
 The Splash image is loaded and shown at startup. It waits until the website has loaded entirely. And then fades out. There are a variety of methods to show splash images. But for the purpose of this project we will just use (1) image for all devices. 
