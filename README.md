@@ -71,10 +71,12 @@ This is the starting point and the main configuration file for your app.
 Here we need to modify a few properties to make the app your own.
 
 ```xml
-android:versionName="1.0.0"
-android:versionCode="1"
-package="com.application.mobile"
+<manifest 
+    android:versionName="1.0.0" android:versionCode="1"
+    package="com.application.mobile"
+    android:installLocation="preferExternal">
 ```
+
 Towards the bottom of the manifest, you should see a list of permissions
 
 ```xml
