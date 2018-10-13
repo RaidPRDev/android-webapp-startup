@@ -194,11 +194,11 @@ Ideally we just need to update the `applicationId`, `versionName` and `versionCo
 | versionCode | build version |
 | versionName | mayor version |
 
-```
+```gradle
 android {
     compileSdkVersion 26
     defaultConfig {
-        **applicationId 'com.yourapplication.app'**
+        applicationId 'com.yourapplication.app'
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
