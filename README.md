@@ -75,8 +75,8 @@ Edit the following:
 | Property | Description |
 | --- | --- |
 | package="com.application.mobile" | application id |
-| android:versionName | application version |
-| android:versionCode="1" | application build sub-version |
+| android:versionName="1.0.0" | application mayor version |
+| android:versionCode="1" | application build version |
 
 See here:
 ```xml
